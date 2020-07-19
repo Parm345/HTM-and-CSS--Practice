@@ -22,7 +22,12 @@ header{
     background-size:cover;
 }
 
+#main-table{
+    padding-left: 10%;
+}
+
 .date {
+    background-color: white;
     width: 100px;
     height:7px;
     text-align: center;
@@ -31,7 +36,7 @@ header{
     font-size: 14px;
     border-top: 2px solid #ccc;
     margin: -1px 0 0 0;
-    padding: 4px 5px 6px 0;
+    padding: 0px 5px 6px 0px;
     clear: left;
     font-weight: bold;
 }
@@ -45,4 +50,45 @@ header{
     border-top: 1px solid #ccc;
     clear: right;
     font-size: 14px;
+}
+
+#summary-table{
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: white;
+}
+
+#summary-table th{
+    font-weight:bold;
+    font-size: 26px;
+    padding-left: 25%;
+    padding-bottom: 20px;
+}
+
+img {
+    align-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#summary-table td{
+    vertical-align: top;
+    border: 0;
+    border-bottom: 3px solid #dddddd;
+    padding-left: 0%;
+
+}
+
+#quote2 {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p{
+    text-align: center;
+    background-color:lightgray;
+    width: 500px;
 }
