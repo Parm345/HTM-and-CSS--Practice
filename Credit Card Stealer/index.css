@@ -1,3 +1,75 @@
 *{
     box-sizing: border-box;
+    font-size: 14px;
+    
+}
+
+#Main {
+    width: 360px;
+    height: 800px;
+    margin: 60px auto 0;
+    border: grey solid 1px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+}
+
+/*title*/
+#title {
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e1e8ee ;
+}
+
+#title-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+/*Common*/
+
+.fill-in, #delivery, #security {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+/*Fill In Stuff (name, address, etc)*/
+
+.fill-in input{
+    margin-top: 5px;
+    width: 300px;
+}
+
+/*Delivery*/
+
+#delivery {
+    margin-top: 10px;
+}
+
+#delivery div{
+    padding-top: 10px;
+}
+
+/*Security*/
+
+#security div{
+    padding-top: 10px;
+}
+
+/*Proceed-btn*/
+
+#proceed-btn {
+    margin: 18px;
+    width: 320px;
+    height: 40px;
+    background: #7dc855;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+#proceed-btn a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
