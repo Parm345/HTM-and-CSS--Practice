@@ -1,0 +1,75 @@
+
+/* Parallax Stuff */
+.tiny-doom {
+    /* The image */
+    background-image: url(Km0wz53.png);
+
+    /*Set Dimensions*/
+    height: 1080px;
+    width: 1920px;
+    /*Create Parallax Effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Text*/
+
+    text-align: center;
+}
+
+.tiny-doom div{
+    padding-top: 350px;
+    margin: auto 850px auto;
+}
+
+.tiny-doom h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: #090d1d;
+
+    padding: 20px 30px 20px
+
+
+}
+
+.doom-2016{
+
+    background-image: url(doom-game-hd.jpg);
+
+    width: 1920px;
+    height: 1080px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.doom-eternal{
+    background-image: url(560552-doom-eternal-multiplayer.webp);
+
+    width: 1920px;
+    height: 1080px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    padding-top: 1px;
+    width: 1920px;
+    height: 200px;
+    background-color: #090d1d;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.text p {
+    padding-top: 10px;
+}
