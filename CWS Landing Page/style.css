@@ -81,6 +81,7 @@ img{
 /*Section-3*/
 #section-3{
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #333333;
 }
 
@@ -155,6 +156,34 @@ img{
     clear: both;
     display: table;
 }
+
+
+#section-final{
+    background-color: white;
+    height: 30px;
+}
+
+#section-final p{
+    float: right;
+    padding: 25px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+#section-final a{
+    float: left;
+    padding: 25px 0;
+    padding-left: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+
+
 
 /*Responsive layout - makes the three coluns stack on top pof each other isntead of next to each other*/
 @media screen and (max-width: 1250px){
