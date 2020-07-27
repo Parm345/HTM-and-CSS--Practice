@@ -10,28 +10,29 @@
 #landing-column{
     display: flex;
     width: 80%;
-    margin-left: 14%;
-    margin-right: 20%;
-    margin-top: 5%;
+    margin: 1% auto 0% auto;
+    border: black ridge 10px ;
 }
 
 
 #landing-column img{
-    float: right;
-    width: 50%;
-    margin-right: 0%;
-    margin-left: 10%;
-
+    float: left;
+    vertical-align: middle;
+    width: 71%;
 }
 
 /*Landing Text*/
 #landing-text{
     text-align: center;
     float: left;
-    padding-top: 10%;
+    vertical-align: middle;
+    margin-top: 0;
+    padding: 15% 5% 18% 5%;
 
 }
 
 #landing-text h2{
     color: #666666;
 }
+
+
